@@ -5,6 +5,9 @@ class Veiculo:
         self.velocidade_max = velocidade_max
         self.quilometro_litro = quilometro_litro
 
+    def capacidade_assentos(self, capacidade):
+        print(f'A capacidade máxima de assentos do veículo {self.nome} é {capacidade}')
+   
     def toStr(self):
         print(f'Nome = {self.nome}. Velocidade máxima = {self.velocidade_max}. KMs percorridos = {self.quilometro_litro}')
 
